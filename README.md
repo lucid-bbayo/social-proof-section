@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://www.github.com/lucid-bbayo/social-proof-section)
-- Live Site URL: [Netlify](https://lucidsocialproof.netlify.com)
+- Live Site URL: [Netlify](https://lucidsocialproof.netlify.app)
 
 ## My process
 
