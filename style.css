@@ -1,0 +1,225 @@
+:root{
+    --dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "spartan400";
+    src: url(static/LeagueSpartan-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "spartan500";
+    src: url(static/LeagueSpartan-Medium.ttf);
+    font-weight: 500
+}
+
+@font-face {
+    font-family: "spartan700";
+    src: url(static/LeagueSpartan-Bold.ttf);
+    font-weight: 700;
+}
+
+body{
+    max-width: 375px;
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    padding: auto;
+    margin: 20px auto;
+}
+
+h2{
+    color: var(--dark-magenta);
+    font-family: "spartan700";
+    font-size: 42px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+p{
+    font-family: "spartan400";
+    font-size: 15px;
+}
+
+.intro{
+    color: var(--dark-grayish-magenta);
+    text-align: center;
+    padding: 5px;
+    line-height: 1.5em;
+}
+
+ul{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+li{
+    text-align: center;
+    background: var(--light-grayish-magenta);
+    background-size: 20px;
+    font-family: "spartan500";
+    padding: 10px;
+    margin: 10px auto;
+    color: var(--dark-magenta);
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 1.2em;
+}
+
+li image{
+    display: inline;
+    padding-bottom: 5px;
+}
+
+.review{
+    background:hsl(300, 43%, 22%);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.profile{
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.buyer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-profile{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+h3{
+    color: var(--white);
+    font-family: "spartan700";
+    padding-bottom: 5px;
+}
+
+.post{
+    color: var(--soft-pink);
+}
+
+.remark{
+    color: var(--light-grayish-magenta);
+    line-height: 1.5;
+    padding: 10px 15px;
+}
+
+@media screen and (min-width: 900px){
+    body{
+        max-width: fit-content;
+        padding: 100px;
+        padding-bottom: 10px;
+        margin: auto;
+    }
+
+    .top{
+        display: flex;
+        height: 250x;
+        flex-grow: 1;
+    }
+
+    .side{
+        flex-basis: 50%;
+        padding: 25px;
+    }
+
+    .l-heading{
+        padding-right: 125px;
+    }
+
+    h2{
+        font-size: 55px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .intro{
+        text-align: left;
+        margin: auto;
+        padding: auto;
+    }
+
+    li{
+        display: block;
+        max-width: 80%;
+        padding: 20px;
+    }
+
+    .break{
+        display: none;
+    }
+
+    .one{
+        margin-left: 0%;
+    }
+
+    .two{
+        margin-left: 10%;
+    }
+
+    .three{
+        margin-right: 0%;
+    }
+
+    .down{
+        display: flex;
+        margin: 50px 10px;
+    }
+
+    .review{
+        max-width: 1075px;
+        width: 100%;
+        height: 300px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .r2{
+        position: relative;
+        top: 30px;
+    }
+
+    .r3{
+        position: relative;
+        top: 50px;
+    }
+}
+
+@media (min-width: 1075px){
+    .review{
+        margin: 2%;
+        height: fit-content;
+    }
+
+    .r2{
+        margin-top: 50px;
+    }
+
+    .r3{
+        margin-top: 70px;
+    }
+}
