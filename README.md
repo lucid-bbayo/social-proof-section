@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./"Screenshot 2022-08-19 at 15-11-24 Frontend Mentor Social proof section.png")
-![](./"Screenshot 2022-08-19 at 15-14-51 Frontend Mentor Social proof section.png")
+![Screenshot 2022-08-19 at 15-14-51 Frontend Mentor Social proof section](https://user-images.githubusercontent.com/106781345/188588014-3aed16b4-217a-42f9-a7bc-ac3a963d9948.png)
+![Screenshot 2022-08-19 at 15-11-24 Frontend Mentor Social proof section](https://user-images.githubusercontent.com/106781345/188588157-0e98332b-acda-4747-9777-d1552feccafb.png)
 
 ### Links
 
